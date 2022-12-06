@@ -1,0 +1,739 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_8ab94 && [1/2] Building C object CMakeFiles/cmTC_8ab94.dir/src.c.obj
+cc1.exe: warning: command-line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking C executable cmTC_8ab94.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_73e7e && [1/2] Building CXX object CMakeFiles/cmTC_73e7e.dir/src.cxx.obj
+cc1plus.exe: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking CXX executable cmTC_73e7e.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_9da87 && [1/2] Building CXX object CMakeFiles/cmTC_9da87.dir/src.cxx.obj
+cc1plus.exe: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking CXX executable cmTC_9da87.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_03edb && [1/2] Building C object CMakeFiles/cmTC_03edb.dir/src.c.obj
+cc1.exe: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking C executable cmTC_03edb.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_fbd9e && [1/2] Building C object CMakeFiles/cmTC_fbd9e.dir/src.c.obj
+cc1.exe: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking C executable cmTC_fbd9e.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_0fd50 && [1/2] Building C object CMakeFiles/cmTC_0fd50.dir/src.c.obj
+cc1.exe: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking C executable cmTC_0fd50.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_01d1e && [1/2] Building CXX object CMakeFiles/cmTC_01d1e.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_01d1e.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_25cbd && [1/2] Building C object CMakeFiles/cmTC_25cbd.dir/src.c.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+[2/2] Linking C executable cmTC_25cbd.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_24489 && [1/2] Building C object CMakeFiles/cmTC_24489.dir/src.c.obj
+cc1.exe: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking C executable cmTC_24489.exe
+
+
+===== END =====
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_dd5b0 && [1/2] Building C object CMakeFiles/cmTC_dd5b0.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_dd5b0.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_dd5b0.dir/CheckSymbolExists.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+    8 |   return ((int*)(&posix_memalign))[argc];
+      |                   ^~~~~~~~~~~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_591ca && [1/2] Building C object CMakeFiles/cmTC_591ca.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_591ca.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_591ca.dir/CheckSymbolExists.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'memalign' undeclared (first use in this function)
+    8 |   return ((int*)(&memalign))[argc];
+      |                   ^~~~~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_5c6af && [1/2] Building C object CMakeFiles/cmTC_5c6af.dir/src.c.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+[2/2] Linking C executable cmTC_5c6af.exe
+
+
+===== END =====
+
+Looking for a ASM_NASM compiler failed with the following output:
+-- The ASM_NASM compiler identification is unknown
+-- Didn't find assembler
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_ASM_NASM_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "ASM_NASM" or the CMake cache entry CMAKE_ASM_NASM_COMPILER to the
+  full path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/3rdparty/libjpeg-turbo/src/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/3rdparty/libjpeg-turbo/src/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/CMakeError.log".
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_335ae && [1/2] Building C object CMakeFiles/cmTC_335ae.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_335ae.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_335ae.dir/CheckIncludeFile.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: dlfcn.h: No such file or directory
+    1 | #include <dlfcn.h>
+      |          ^~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_5b028 && [1/2] Building C object CMakeFiles/cmTC_5b028.dir/int8.c.obj
+FAILED: CMakeFiles/cmTC_5b028.dir/int8.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_5b028.dir/int8.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int8.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int8.c:27:22: error: 'INT8' undeclared here (not in a function); did you mean 'INT8_C'?
+   27 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int8.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_37495 && [1/2] Building C object CMakeFiles/cmTC_37495.dir/int16.c.obj
+FAILED: CMakeFiles/cmTC_37495.dir/int16.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_37495.dir/int16.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int16.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int16.c:27:22: error: 'INT16' undeclared here (not in a function); did you mean 'INT16_C'?
+   27 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int16.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_92a79 && [1/2] Building C object CMakeFiles/cmTC_92a79.dir/int32.c.obj
+FAILED: CMakeFiles/cmTC_92a79.dir/int32.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_92a79.dir/int32.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int32.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int32.c:27:22: error: 'INT32' undeclared here (not in a function); did you mean 'INT32_C'?
+   27 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int32.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_d69ea && [1/2] Building C object CMakeFiles/cmTC_d69ea.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_d69ea.exe
+FAILED: cmTC_d69ea.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG -Wl,--gc-sections CMakeFiles/cmTC_d69ea.dir/CheckFunctionExists.c.obj -o cmTC_d69ea.exe -Wl,--out-implib,libcmTC_d69ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.4\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_d69ea.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text.startup.main+0x11): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_a0bd9 && [1/2] Building CXX object CMakeFiles/cmTC_a0bd9.dir/src.cxx.obj
+cc1plus.exe: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] Linking CXX executable cmTC_a0bd9.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_4e266 && [1/2] Building C object CMakeFiles/cmTC_4e266.dir/src.c.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics
+[2/2] Linking C executable cmTC_4e266.exe
+
+
+===== END =====
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_5c33a && [1/2] Building C object CMakeFiles/cmTC_5c33a.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_5c33a.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_5c33a.dir/CheckSymbolExists.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+    8 |   return ((int*)(&posix_memalign))[argc];
+      |                   ^~~~~~~~~~~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_3a889 && [1/2] Building C object CMakeFiles/cmTC_3a889.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_3a889.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_3a889.dir/CheckSymbolExists.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'memalign' undeclared (first use in this function)
+    8 |   return ((int*)(&memalign))[argc];
+      |                   ^~~~~~~~
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-null-pointer-subtraction' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_c708d && [1/2] Building C object CMakeFiles/cmTC_c708d.dir/src.c.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-null-pointer-subtraction' may have been intended to silence earlier diagnostics
+[2/2] Linking C executable cmTC_c708d.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_85c21 && [1/2] Building CXX object CMakeFiles/cmTC_85c21.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_85c21.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_0287f && [1/2] Building CXX object CMakeFiles/cmTC_0287f.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_0287f.exe
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_ae042 && [1/2] Building C object CMakeFiles/cmTC_ae042.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_ae042.exe
+FAILED: cmTC_ae042.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -Wl,--gc-sections CMakeFiles/cmTC_ae042.dir/CheckFunctionExists.c.obj -o cmTC_ae042.exe -Wl,--out-implib,libcmTC_ae042.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.4\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_ae042.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text.startup.main+0x11): undefined reference to `sgemm_'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_29bbb && [1/2] Building CXX object CMakeFiles/cmTC_29bbb.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_29bbb.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_7154e && [1/2] Building CXX object CMakeFiles/cmTC_7154e.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_7154e.exe
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_dc4fd && [1/2] Building CXX object CMakeFiles/cmTC_dc4fd.dir/src.cxx.obj
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics
+[2/2] Linking CXX executable cmTC_dc4fd.exe
+
+
+===== END =====
+
+Determining if the include file vidcap.h exists failed with the following output:
+Change Dir: C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_b354f && [1/2] Building C object CMakeFiles/cmTC_b354f.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_b354f.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles/cmTC_b354f.dir/CheckIncludeFile.c.obj -c C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+C:/Users/Krzysztof/Desktop/NAI/opencv-4.x/cmake-build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: vidcap.h: No such file or directory
+    1 | #include <vidcap.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
